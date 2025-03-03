@@ -1,0 +1,16 @@
+/* App.css or another CSS file */
+.plant-card-body {
+    height: 250px; /* Fixed height for the body */
+    overflow-y: auto; /* Adds scroll if the content overflows */
+  }
+  
+  .plant-card-body .card-text {
+    max-height: 100px; /* Optional: limit the height of the description text */
+    overflow: hidden; /* Ensures the description text doesn't overflow */
+  }
+  
+  .app-background {
+    background: linear-gradient(to bottom, #0000ff, #87cefa); /* Dark blue to light blue */
+    height: 100vh; /* Cover the entire screen */
+    padding: 20px; /* Optional padding */
+  }

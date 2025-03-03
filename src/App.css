@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+/* Body background with a gradient */
+body {
+  background: linear-gradient(to right, #0066cc, #00b3b3); /* Example blue-to-cyan gradient */
+  margin: 0; /* Optional: Remove default body margin */
+  padding: 0; /* Optional: Remove padding */
+  min-height: 100vh; /* Ensure the body covers the full height of the viewport */
+  font-family: Arial, sans-serif; /* Optional: Set default font */
+}
+
+/* Styling for the app background */
+.app-background {
+  background: inherit; /* Use the same gradient as the body */
+  padding: 20px;
+  border-radius: 10px; /* Optional: Adds rounded corners to the container */
+  max-width: 1200px; /* Limit the width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+  min-height: 100vh; /* Ensure the container fills at least the full height */
+}
+
+
+.title {
+
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  text-align: center;
+
+}

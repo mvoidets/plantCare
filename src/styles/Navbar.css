@@ -1,0 +1,37 @@
+/* Navbar.css */
+
+.navbar {
+    /* background: linear-gradient(to right, #0066cc, #00b3b3); */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    color:white;
+    text-align: center;
+    }
+  
+    .navbar .navbar-brand {
+
+      font-family: 'Courier New', Courier, monospace; 
+      font-size: 3rem; 
+      color: white !important; 
+      text-align: center; 
+      font-weight: bold; 
+    }
+               
+
+/* Set up the navbar as a flex container */
+.custom-navbar {
+  display: flex;                /* Use flexbox */
+  justify-content: center;      /* Center content horizontally */
+  align-items: center;          /* Center content vertically */
+  height: 80px;                 /* Adjust the height of the navbar */
+  background-color: #0066cc;    /* Background color of the navbar */
+}
+
+    
+
+
+
+  
