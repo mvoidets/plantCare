@@ -16,15 +16,15 @@ interface Plant {
 
 const plantGuide = [
 
-  { id: 1, name: "Spider Plant", description: "Spider plants: Kitchen, dining room, bedroom", image: "./images/spider.jpg", careGuide:"Water daily, soil needs to be moist" },
-  { id: 2, name: "Snake Plant", description: "Snake plants: living room and entry way", image: "./images/snake.jpg", careGuide:"Water once a week, soil needs to be dry between watering" },
-  { id: 3, name: "Climbing Aloe", description: "Climbing aloe: Living room and bedroom", image: "./images/aloe.jpg", careGuide: "Water every 2 weeks, soil needs to be dry between watering" },
-  { id: 4, name: "Philodendron vine", description: "Philodendron: Living room tv stand, side table dining area", image: "./images/philodendron.jpg" , careGuide: "Water every couple days"},
-  { id: 5, name: "String of pearl", description: "String of pearls: Kithen", image: "./images/pearl.jpg", careGuide:"Do not water top side, need to place in shallow dish and fill dish with water. Place plant in dish and let sit, to soak up water." },
-  { id: 6, name: "Philodendron/Spider combo", description: " Philodendron/Spider plant:Under big tv", image: "./images/philo_spider.jpg", careGuide: "Water every few days, soil can be moist and slightly dry between watering" },
-  { id: 7, name: "Sago Palm", description: "Sago Palm: Front room, corner side table", image: "./images/palm.jpg", careGuide: "Water once a week, not too much water." },
-  { id: 8, name: "Ivy", description: "Ivy: kitchent sink", image: "./images/ivy.jpg", careGuide: "Usually add a sip of water daily" },
-  { id: 9, name: "Succulent", description: "Succulent: Kitchen sink", image: "./images/palm.jpg", careGuide: "Water a ilittle bit, once a week."},
+  { id: 1, name: "Spider Plant", description: "Spider plants: Kitchen, dining room, bedroom", image: "/images/spider.jpg", careGuide:"Water daily, soil needs to be moist" },
+  { id: 2, name: "Snake Plant", description: "Snake plants: living room and entry way", image: "/images/snake.jpg", careGuide:"Water once a week, soil needs to be dry between watering" },
+  { id: 3, name: "Climbing Aloe", description: "Climbing aloe: Living room and bedroom", image: "/images/aloe.jpg", careGuide: "Water every 2 weeks, soil needs to be dry between watering" },
+  { id: 4, name: "Philodendron vine", description: "Philodendron: Living room tv stand, side table dining area", image: "/images/philodendron.jpg" , careGuide: "Water every couple days"},
+  { id: 5, name: "String of pearl", description: "String of pearls: Kithen", image: "/images/pearl.jpg", careGuide:"Do not water top side, need to place in shallow dish and fill dish with water. Place plant in dish and let sit, to soak up water." },
+  { id: 6, name: "Philodendron/Spider combo", description: " Philodendron/Spider plant:Under big tv", image: "/images/philo_spider.jpg", careGuide: "Water every few days, soil can be moist and slightly dry between watering" },
+  { id: 7, name: "Sago Palm", description: "Sago Palm: Front room, corner side table", image: "/images/palm.jpg", careGuide: "Water once a week, not too much water." },
+  { id: 8, name: "Ivy", description: "Ivy: kitchent sink", image: "/images/ivy.jpg", careGuide: "Usually add a sip of water daily" },
+  { id: 9, name: "Succulent", description: "Succulent: Kitchen sink", image: "/images/succulent.jpg", careGuide: "Water a ilittle bit, once a week."},
 ]
 
 const App: React.FC = () => {
