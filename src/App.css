@@ -64,3 +64,15 @@ body {
   text-align: center;
 
 }
+
+/* Small screens (mobile devices) */
+@media (max-width: 576px) {
+  .navbar {
+    padding: 10px 20px; /* Smaller padding */
+    height: 120px; /* Smaller height */
+  }
+
+  .navbar .navbar-brand {
+    font-size: 2rem; /* Smaller font size */
+  }
+}

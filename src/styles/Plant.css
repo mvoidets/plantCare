@@ -14,3 +14,83 @@
     height: 100vh; /* Cover the entire screen */
     padding: 20px; /* Optional padding */
   }
+
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Body background with a gradient */
+  body {
+    background: linear-gradient(to right, #0066cc, #00b3b3); /* Example blue-to-cyan gradient */
+    margin: 0; /* Optional: Remove default body margin */
+    padding: 0; /* Optional: Remove padding */
+    min-height: 100vh; /* Ensure the body covers the full height of the viewport */
+    font-family: Arial, sans-serif; /* Optional: Set default font */
+  }
+  
+  /* Styling for the app background */
+  .app-background {
+    background: inherit; /* Use the same gradient as the body */
+    padding: 20px;
+    border-radius: 10px; /* Optional: Adds rounded corners to the container */
+    max-width: 1200px; /* Limit the width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    min-height: 100vh; /* Ensure the container fills at least the full height */
+  }
+  
+  
+  .title {
+  
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+  
+  }
+  
+
+/* Small screens (mobile devices) */
+@media (max-width: 576px) {
+  .navbar {
+    padding: 10px 20px; /* Smaller padding */
+    height: 120px; /* Smaller height */
+  }
+
+  .navbar .navbar-brand {
+    font-size: 2rem; /* Smaller font size */
+  }
+}

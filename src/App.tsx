@@ -42,7 +42,7 @@ const closeModal = () => {
    <Container>
      {/* <Navbar /> */}
      <nav className="navbar d-flex justify-content-center align-items-center" >
-        <span className="navbar-brand mb-0  ">Do not kill our plants!</span>
+        <span className="navbar-brand mb-0  ">Do not kill <br/>our plants!</span>
       </nav>
       
       <div className="app-background">

@@ -1,14 +1,14 @@
-/* Navbar.css */
+
 
 .navbar {
-    /* background: linear-gradient(to right, #0066cc, #00b3b3); */
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 150px;
     color:white;
     text-align: center;
+
     }
   
     .navbar .navbar-brand {
@@ -21,17 +21,51 @@
     }
                
 
-/* Set up the navbar as a flex container */
+
 .custom-navbar {
-  display: flex;                /* Use flexbox */
-  justify-content: center;      /* Center content horizontally */
-  align-items: center;          /* Center content vertically */
-  height: 80px;                 /* Adjust the height of the navbar */
-  background-color: #0066cc;    /* Background color of the navbar */
+  display: flex;                
+  justify-content: center;     
+  align-items: center;         
+  height: 80px;                 
+  background-color: #0066cc;  
 }
 
-    
-
-
-
   
+body {
+  background: linear-gradient(to right, #0066cc, #00b3b3);
+  margin: 0; 
+  padding: 0; 
+  min-height: 100vh; 
+  font-family: Arial, sans-serif; 
+}
+
+/* Styling for the app background */
+.app-background {
+  background: inherit; 
+  padding: 20px;
+  border-radius: 10px; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  min-height: 100vh;
+}
+
+
+.title {
+
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  text-align: center;
+
+}
+
+/* Small screens (mobile devices) */
+@media (max-width: 576px) {
+  .navbar {
+    padding: 10px 20px; /* Smaller padding */
+    height: 120px; /* Smaller height */
+  }
+
+  .navbar .navbar-brand {
+    font-size: 2rem; /* Smaller font size */
+  }
+}
