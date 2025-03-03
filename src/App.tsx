@@ -18,7 +18,7 @@ const plantGuide = [
 
   { id: 1, name: "Spider Plant", description: "Spider plants: Kitchen, dining room, bedroom", image: "/images/spider.JPG", careGuide:"Water daily, soil needs to be moist" },
   { id: 2, name: "Snake Plant", description: "Snake plants: living room and entry way", image: "/images/snake.JPG", careGuide:"Water once a week, soil needs to be dry between watering" },
-  { id: 3, name: "Climbing Aloe", description: "Climbing aloe: Living room and bedroom", image: "/images/aloe.jpg", careGuide: "Water every 2 weeks, soil needs to be dry between watering" },
+  { id: 3, name: "Climbing Aloe", description: "Climbing aloe: Living room and bedroom", image: "/images/aloe.JPG", careGuide: "Water every 2 weeks, soil needs to be dry between watering" },
   { id: 4, name: "Philodendron vine", description: "Philodendron: Living room tv stand, side table dining area", image: "/images/philodendron.JPG" , careGuide: "Water every couple days"},
   { id: 5, name: "String of pearl", description: "String of pearls: Kithen", image: "/images/pearl.JPG", careGuide:"Do not water top side, need to place in shallow dish and fill dish with water. Place plant in dish and let sit, to soak up water." },
   { id: 6, name: "Philodendron/Spider combo", description: " Philodendron/Spider plant:Under big tv", image: "/images/philo_spider.JPG", careGuide: "Water every few days, soil can be moist and slightly dry between watering" },
